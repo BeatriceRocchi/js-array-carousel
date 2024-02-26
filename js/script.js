@@ -25,13 +25,25 @@ imageCollection[counterImg].classList.remove("hide");
 
 //Inserimento logica cambio immagini al click
 btnArrowDown.addEventListener("click", function () {
-  imageCollection[counterImg].classList.add("hide");
-  counterImg++;
-  imageCollection[counterImg].classList.remove("hide");
+  if (counterImg === imagesList.length - 1) {
+    imageCollection[counterImg].classList.add("hide");
+    counterImg = 0;
+    imageCollection[counterImg].classList.remove("hide");
+  } else {
+    imageCollection[counterImg].classList.add("hide");
+    counterImg++;
+    imageCollection[counterImg].classList.remove("hide");
+  }
 });
 
 btnArrowUp.addEventListener("click", function () {
-  imageCollection[counterImg].classList.add("hide");
-  counterImg--;
-  imageCollection[counterImg].classList.remove("hide");
+  if (counterImg === 0) {
+    imageCollection[counterImg].classList.add("hide");
+    counterImg = imagesList.length - 1;
+    imageCollection[counterImg].classList.remove("hide");
+  } else {
+    imageCollection[counterImg].classList.add("hide");
+    counterImg--;
+    imageCollection[counterImg].classList.remove("hide");
+  }
 });

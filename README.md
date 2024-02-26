@@ -12,3 +12,11 @@ Dato un array contenente una lista di cinque immagini, creazione di un carosello
    - aggiungere la classe hide all'elemento con indice attuale
    - incrementare/decrementare il contatore
    - togliere la classe hide all'elemento con indice pari al contatore incrementato/decrementato
+6. Al click sul bottone up, verificare se il contatore === 0 e in quel caso:
+   - aggiungere la classe hide all'elemento con indice attuale
+   - assegnare al contatore il valore pari alla lunghezza di imageList - 1
+   - togliere la classe hide all'elemento con indice pari al contatore appena modificato
+7. Al click sul bottone down, verificare se il contatore === lunghezza di imageList - 1 e in quel caso:
+   - aggiungere la classe hide all'elemento con indice attuale
+   - assegnare al contatore un valore pari 0
+   - togliere la classe hide all'elemento con indice pari al contatore appena modificato
