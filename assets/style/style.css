@@ -9,7 +9,11 @@
 }
 
 .opacity {
-  filter: brightness(50%);
+  filter: brightness(30%);
+}
+
+.border {
+  border: 3px solid lightgrey;
 }
 
 .main-wrapper {
@@ -49,6 +53,7 @@
   left: calc(80% + 10%);
   transform: translateX(-50%);
   z-index: 999;
+  cursor: pointer;
 }
 
 .btn:hover {

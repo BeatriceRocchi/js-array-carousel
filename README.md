@@ -20,3 +20,6 @@ Dato un array contenente una lista di cinque immagini, creazione di un carosello
    - aggiungere la classe hide all'elemento con indice attuale
    - assegnare al contatore un valore pari 0
    - togliere la classe hide all'elemento con indice pari al contatore appena modificato
+8. Inserire dinamicamente nel thumbnails-wrapper tutte le thumbnails con una classe opacity
+9. Inserire in una collection tutti gli elementi thumbnails creati, rimuovere alla prima thumbnail la classe opacity e aggiungere la classe border
+10. Gestire al click le thumbnails analogamente a quanto fatto per le immagini
