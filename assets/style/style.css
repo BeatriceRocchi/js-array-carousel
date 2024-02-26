@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.hide {
+  display: none;
+}
+
 .main-wrapper {
   height: 100vh;
   display: flex;
